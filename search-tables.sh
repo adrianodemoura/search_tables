@@ -7,9 +7,9 @@ Este script localiza a tabela e a coluna que possui o texto.
 DIR_SCRIPT=${PWD}"/"$(dirname $0)
 
 # parameters
-USER='aapm'
-PASSWORD='aapm'
-DATABASE='aapm'
+USER='usuario'
+PASSWORD='senha'
+DATABASE='banco'
 TEXTO=$1
 
 if [ ${#TEXTO} = 0 ]; then
